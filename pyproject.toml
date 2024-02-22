@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "explora-hat"
+version = "0.2.3"
+description = ""
+authors = ["Bruno Laurencich <bruno@chordata.cc>", "guiltyfeet <lorenzomf@eml.cc>"]
+readme = "README.md"
+packages = [{include = "explora", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+rpi-ws281x = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "piwheels"
+url = "https://www.piwheels.org/simple"
+priority = "primary"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "supplemental"
