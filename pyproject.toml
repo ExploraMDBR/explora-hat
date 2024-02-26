@@ -9,6 +9,7 @@ packages = [{include = "explora", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 rpi-ws281x = "^5.0.0"
+gpiozero = "^2.0"
 
 [build-system]
 requires = ["poetry-core"]
