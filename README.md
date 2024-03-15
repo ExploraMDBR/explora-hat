@@ -9,7 +9,7 @@ Python module for interfacing with the Raspberry Pi Explora Hat.
 ## Installation
 
 ```bash
-pip install -i https://test.pypi.org/simple/ explora-hat
+pip install -i https://test.pypi.org/simple/ explora-hat --extra-index-url https://pypi.org/simple
 ```
 
 ```python
