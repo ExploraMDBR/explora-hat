@@ -1,6 +1,6 @@
 # explora-hat
 
-
+<img width="200" alt="project logo" src="images/logo.png">
 
 ![RaspberryPi](https://img.shields.io/badge/-RaspberryPi-C51A4A?logo=raspberrypi&logoColor=white) [![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)
 
